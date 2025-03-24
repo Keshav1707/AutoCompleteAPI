@@ -60,7 +60,6 @@
 }
 ```
 - Suggested Handling:
-  - Wait & retry after **1 minute**
-  - Check `Retry-After` header (if available)
+  - Wait & retry after **1 minute** in case of network failure
   - Implement client-side rate limiting
 
