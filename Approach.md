@@ -30,6 +30,10 @@ This project implements a recursive autocomplete crawler for three API versions 
    - A final summary with total requests made is saved.
 
 ## Findings
+- **Request & Word Count Summary**:
+  - **v1**: **32,447** requests, **18,632** words found.
+  - **v2**: **8,634** requests, **13,730** words found.
+  - **v3**: **5,549** requests, **2,428** words found.
 - The approach ensures systematic exploration without redundant requests.
 - API rate limiting is a constraint; an adaptive delay or batch processing may improve efficiency.
 - The selection of the last word for further expansion is an effective way to avoid unnecessary branching.
@@ -39,6 +43,3 @@ This project implements a recursive autocomplete crawler for three API versions 
 - **Parallelization**: Introduce concurrent API calls while respecting rate limits.
 - **Optimized Prefix Expansion**: Use a priority queue to explore promising prefixes first.
 - **Dynamic Delay Adjustment**: Adjust delay based on observed `429` responses.
-
-
-
