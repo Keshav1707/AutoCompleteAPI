@@ -40,5 +40,5 @@ This project implements a recursive autocomplete crawler for three API versions 
 - **Optimized Prefix Expansion**: Use a priority queue to explore promising prefixes first.
 - **Dynamic Delay Adjustment**: Adjust delay based on observed `429` responses.
 
-This documentation provides a structured understanding of the approach and its effectiveness. 🚀
+
 
